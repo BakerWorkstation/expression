@@ -1,0 +1,35 @@
+{
+	"id": "",
+	"sip": "",
+	"sport": "",
+	"dip": "",
+	"dport": "",
+	"direct": "",
+	"proto": "",
+	"status": "",
+	"file": [{
+		"md5": "",
+		"name": "",
+		"size": "",
+		"suffix": "",
+		"type": ""
+	}],
+	"reference": {
+		"email": {
+			"file": [{
+				"md5": "",
+				"name": "",
+				"size": "",
+				"suffix": "",
+				"type": ""
+			}],
+			"content": "",
+			"show_url": "",
+			"a_url": ""
+		},
+		"pc_process": {
+			"pname": "",
+			"ppname": ""
+		}
+	}
+}

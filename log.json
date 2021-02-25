@@ -1,0 +1,343 @@
+{
+    "id": "",
+    "process_times": {
+        "find_ts": "",
+        "report_ts": "",
+        "collection_ts": "",
+        "handle_ts": "",
+        "enter_es_ts": "",
+        "send_decide": "",
+        "warn_ts": ""
+    },
+    "label": [],
+    "domain_attribute":"",
+    "attck": "",
+    "url": "",
+    "domain": "",
+    "detect": {
+        "detect_time": "",
+        "detect_pro_id": "",
+        "detect_pro": "",
+        "alert": "",
+        "is_malicious": "",
+        "version": "",
+        "device_ip": [{
+              "ip": "",
+              "mac": ""
+        }]
+    },
+    "src": {
+        "ip": "",
+        "port": "",
+        "ipv6": "",
+        "uuid": ""
+    },
+    "dst": {
+        "ip": "",
+        "port": "",
+        "ipv6": "",
+        "uuid": ""
+    },
+    "carrier": {
+        "carrier_type": "",
+        "value": "",
+        "protocol": "",
+        "data_info": {
+            "dns_info": {
+                "message_type": "",
+                "record": {
+                    "record_type": "",
+                    "pro_info": "",
+                    "alias": "",
+                    "return_data": ""
+                }
+            },
+            "email_info": {
+                "from_ip": "",
+                "from": "",
+                "to": "",
+                "sender": "",
+                "sub": "",
+                "content": {
+                    "text": "",
+                    "text_url": []
+                },
+                "file": [
+                    {
+                        "filehash": {
+                            "md5": "",
+                            "sha1": "",
+                            "sha256": ""
+                        },
+                        "file_name": "",
+                        "file_format": ""
+                    }
+                ]
+            },
+            "ftp_info": {
+                "upload": {
+                    "bytes": "",
+                    "direct": "",
+                    "file_name": "",
+                    "file_type": "",
+                    "file_hash": {
+                        "md5": "",
+                        "sha1": "",
+                        "sha256": ""
+                    }
+                },
+                "download": {
+                    "bytes": "",
+                    "direct": "",
+                    "file_name": "",
+                    "file_type": "",
+                    "file_hash": {
+                        "md5": "",
+                        "sha1": "",
+                        "sha256": ""
+                    }
+                }
+            },
+            "http_info": {
+                "request": {
+                    "header": {
+                        "method": "",
+                        "URL": "",
+                        "version": "",
+                        "Accept": "",
+                        "Accept-Encoding": "",
+                        "Accept-Language": "",
+                        "Connection": "",
+                        "Contern-Type": "",
+                        "Cookie": "",
+                        "Host": "",
+                        "Referer": "",
+                        "User-Agent": ""
+                    },
+                    "body": {
+                        "bytes": "",
+                        "direction": "",
+                        "file_name": "",
+                        "file_type": "",
+                        "file_hash": {
+                            "md5": "",
+                            "sha1": "",
+                            "sha256": ""
+                        }
+                    }
+                },
+                "response": {
+                    "header": {
+                        "method": "",
+                        "URL": "",
+                        "version": "",
+                        "Accept": "",
+                        "Accept-Encoding": "",
+                        "Accept-Language": "",
+                        "Connection": "",
+                        "Contern-Type": "",
+                        "Cookie": "",
+                        "Host": "",
+                        "Referer": "",
+                        "User-Agent": ""
+                    },
+                    "body": {
+                        "bytes": "",
+                        "direction": "",
+                        "file_name": "",
+                        "file_type": "",
+                        "filehash": {
+                            "md5": "",
+                            "sha1": "",
+                            "sha256": ""
+                        }
+                    }
+                }
+            },
+            "smb_info": {
+                "upload": {
+                    "bytes": "",
+                    "direct": "",
+                    "file_name": "",
+                    "file_type": "",
+                    "file_hash": {
+                        "md5": "",
+                        "sha1": "",
+                        "sha256": ""
+                    }
+                },
+                "download": {
+                    "bytes": "",
+                    "direct": "",
+                    "file_name": "",
+                    "file_type": "",
+                    "file_hash": {
+                        "md5": "",
+                        "sha1": "",
+                        "sha256": ""
+                    }
+                }
+            },
+            "smtp_info": {}
+        }
+    },
+    "other_detect": [{
+        "v_name": "",
+        "v_type": "",
+        "v_family": "",
+        "platform": "",
+        "attack_action": "",
+        "dispose": "",
+        "vulne_ids": [],
+        "detect_base": "",
+        "rule_id": ""
+    }],
+    "src_load": [
+        {
+            "ts": "",
+            "type": "",
+            "pid": "",
+            "parameter": "",
+            "file": {
+                "file_name": "",
+                "file_path": "",
+                "file_md5": "",
+                "file_size": "",
+                "file_format": ""
+            },
+            "reg": {
+              "path": "",
+              "key": "",
+              "value": ""
+            },
+            "task": {
+                "name": "",
+                "path": "",
+                "proc_path": "",
+                "proc_param": ""
+            },
+
+            "api_info": [{
+                "command": "",
+                "param": ""
+            }],
+
+            "net_url": [{
+                "url": ""
+            }],
+
+            "email_keyword": [{
+                "keyword": ""
+            }],
+
+            "remote_blast": {
+                "login_user": "",
+                "login_ip": "",
+                "host": "",
+                "blast_count": "",
+                "blast_success": "",
+                "start_time": "",
+                "end_time": ""
+            },
+
+            "detect_results": {
+                "v_name": "",
+                "v_type": "",
+                "v_family": "",
+                "platform": "",
+                "attack_action": "",
+                "dispose": "",
+                "vulne_ids": [],
+                "detect_base": "",
+                "rule_id": "",
+                "ifexist": "0"
+            }
+        }
+    ],
+    "dst_load": {
+        "ts": "",
+        "type": "",
+        "pid": "",
+        "parameter": "",
+        "file": {
+            "file_name": "",
+            "file_path": "",
+            "file_md5": "",
+            "file_size": "",
+            "file_format": ""
+        },
+        "reg": {
+          "path": "",
+          "key": "",
+          "value": ""
+        },
+        "task": {
+            "name": "",
+            "path": "",
+            "proc_path": "",
+            "proc_param": ""
+        },
+
+        "api_info": [{
+            "command": "",
+            "param": ""
+        }],
+
+        "net_url": [{
+            "url": ""
+        }],
+
+        "email_keyword": [{
+            "keyword": ""
+        }],
+
+        "remote_blast": {
+            "login_user": "",
+            "login_ip": "",
+            "host": "",
+            "blast_count": "",
+            "blast_success": "",
+            "start_time": "",
+            "end_time": ""
+        },
+
+        "detect_results": {
+            "v_name": "",
+            "v_type": "",
+            "v_family": "",
+            "platform": "",
+            "attack_action": "",
+            "dispose": "",
+            "vulne_ids": [],
+            "detect_base": "",
+            "rule_id": "",
+            "ifexist": "0"
+        }
+    },
+    "behavior": {
+        "action": "",
+		"dispose": "",
+		"dispose_success": "",
+        "attack_info": {
+            "first_type": "",
+            "second_type": ""
+        },
+        "attack_label": {
+            "attck": [
+                {
+                    "tactic": "",
+                    "techniques": "",
+                    "tactic_number": ""
+                }
+            ],
+            "nsacss": [
+                {
+                    "stage": "",
+                    "objective": "",
+                    "action": "",
+                    "stage_number": ""
+                }
+            ]
+        }
+    }
+    }

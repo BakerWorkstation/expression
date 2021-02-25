@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "sip": "10.255.175.100",
+            "sport": "1707",
+            "dip": "202.106.186.34",
+            "direct": "down",
+            "dport": "80",
+            "url": "",
+            "status": "200",
+            "file": [
+                {
+                    "md5": "",
+                    "name": "",
+                    "size": "",
+                    "suffix": "",
+                    "type": ""
+                }
+            ],
+            "id": "501DBE3BF78F530CBBCDDE219AD2FD40",
+            "label": [
+                "pop3", "Descending", "iframe"
+            ],
+            "proto": "pop3",
+            "reference": {
+                "email":
+                    {
+                     "content": "\\u8fd9\\u662f\\u4e00\\u5c01\\u5de5\\u4f5c\\u90ae\\u4ef6 <iframe height=390 frameborder=0 width=640 src=http://www.youtube.com/embed/Sf5T5KjMpJU?wmode=transparent title=YouTube video player></iframe>"
+                 }
+            }
+        },
+        {
+            "sip": "10.255.175.101",
+            "sport": "30001",
+            "dip": "220.181.28.149",
+            "direct": "down",
+            "dport": "80",
+            "url": "",
+            "status": "200",
+            "file": [
+                {
+                    "md5": "",
+                    "name": "",
+                    "size": "",
+                    "suffix": "",
+                    "type": ""
+                }
+            ],
+            "id": "D2149DAFD6C959FBB02210E698299FFC",
+            "label": [
+                "imap", "Descending", "iframe"
+            ],
+            "proto": "imap",
+            "reference": {
+                "email":
+                    {
+                     "content": "\\u5f00\\u4f1a\\u901a\\u77e5 <iframe height=390 frameborder=0 width=640 src=https://www.baidu.com title=\\u5f00\\u4f1a\\u4e8b\\u9879></iframe>"
+                 }
+            }
+        }
+    ]
+}

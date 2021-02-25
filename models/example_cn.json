@@ -1,0 +1,40 @@
+{
+    "id": "",         // 日志编号
+    "sip": "",        // 源IP
+    "sport": "",      // 源端口
+    "dip": "",        // 目的IP
+    "dport": "",      // 目的端口
+    "direct": "",     // 方向   变量库阈值 ->  up | down
+    "proto": "",      // 协议   变量库阈值 ->  http | tcp | udp | ftp | smtp | pop3 | imap 
+    "status": "",     // 请求结果  变量库阈值 ->  200 | 101 
+    "file": [         // 文件信息
+            {
+             "md5": "",     // 文件md5
+             "name": "",    // 文件名称
+             "size": "",    // 文件大小
+             "suffix": "",  // 文件扩展名  变量库阈值 ->  exe.doc | exe.xlsx
+             "type": ""     // 文件类型  变量库阈值 ->  pe | micro-ms
+            }
+    ],
+    "reference": {      // 自定义属性
+        "email": {      // 邮件信息
+            "file": [   // 邮件包含文件
+                     {
+                      "md5": "",      // 文件md5
+                      "name": "",     // 文件名称
+                      "size": "",     // 文件大小
+                      "suffix": "",   // 文件扩展名  变量库阈值 ->  exe.doc | exe.xlsx
+                      "type": ""      // 文件类型  变量库阈值 ->  pe | micro-ms
+                     }
+            ],
+            "content": "",   // 邮件正文
+            "show_url": "",  // 邮件显示url
+            "a_url": "",     // 邮件超链接url
+        },
+        "pc_process": {      // 主机进程信息
+            "pname": "",     // 当前进程名称  变量库阈值 ->  powershell.exe | cmd.exe
+            "ppname": ""     // 父进程名称   变量库阈值  ->  svchost.exe | wsmprovhost.exe
+        }
+    }
+    "labels": []   // 一级标签列表
+}
